@@ -6,11 +6,12 @@ function Card(props) {
   return (
     <div className="card">
       <div className="top">
-        <h2 className="name">{props.name}</h2>
+      <p>{props.id}</p>
+        <h2 className="name" >{props.name}</h2>
         <Avatar imgURL={props.imgURL}/>
       </div>
       <div className="bottom">
-       <Detail tel={props.phone} email={props.email}/>
+       <Detail tel={props.phone} email={props.email} />
       </div>
     </div>
   );

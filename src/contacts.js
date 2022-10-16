@@ -1,5 +1,6 @@
 const contacts = [
   {
+    id: "1",
     name: "corgi",
     imgURL:
       "imgs/Finding Neverland.png",
@@ -7,6 +8,7 @@ const contacts = [
     email: "corgi@corgi.com"
   },
   {
+    id: "2",
     name: "siamese cat",
     imgURL:
       "https://s36537.pcdn.co/wp-content/uploads/2017/11/A-Siamese-cat.jpg.optimal.jpg",
@@ -14,6 +16,7 @@ const contacts = [
     email: "siamese@cat.com"
   },
   {
+    id: "3",
     name: "pomsky",
     imgURL:
       "https://i.pinimg.com/564x/f2/f7/bc/f2f7bce61462db8aa3911fe9b53a9e9e.jpg",
